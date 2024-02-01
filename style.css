@@ -790,7 +790,11 @@ p {
     box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
     border-radius: 50%;
     overflow: hidden;
+    width: 250px;
+    height: 250px;
+    
 }
+
 
 .dish-rating {
     font-size: 20px;
@@ -804,7 +808,7 @@ p {
 .dish-title .h3-title {
     text-transform: capitalize;
     margin-bottom: 5px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; 
     font-weight: bold;
     color: #0d0d25;
     transition: 0.3s;
@@ -1504,6 +1508,7 @@ p {
     }
     .dist-img img {
         width: 220px;
+        height: 220px;
     }
     .dist-img {
         margin-top: -110px;
@@ -1702,6 +1707,7 @@ p {
     }
     .dist-img img {
         width: 180px;
+        height: 180px;
     }
     .dist-img {
         margin-top: -80px;
